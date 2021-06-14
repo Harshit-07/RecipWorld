@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app_searchForm{
+  margin-top: 5px;
+  margin-bottom:10px;
+}
+
+.app_input{
+  padding:3px 50px;
+  min-width: 100px;
+  max-width: 100vw;
+  font-size: 14px;
+  font-family: 'Poppins',sans-serif;
+  border-radius:10px;
+  background-color:rgb(245, 245, 245);
+  text-align: center;
+  border:none;
+  border-color:#F97B25;
+}
+
+.app_submit:hover{
+  /* margin-left:10px; */
+  color: #56ab2f;
+  size:10px;
+}
+
+.app_delete:hover{
+  color:red;
+}
+
+.app_recipe{
+  margin:24px;
+  display:grid;
+  grid-template-columns: 300px 300px;
+}
+
+h1{
+  font-size: 45px;
+  padding-right:3px;
+  font-family: 'Lobster', cursive;
+  background: -webkit-linear-gradient(#fc4a1a, #f7b733);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.app_healthlabel{
+  padding:3px 30px;
+  margin-left:7px;
+  margin-right:8px;
+  min-width: 50px;
+  max-width: 50vw;
+  font-size: 14px;
+  font-family: 'Poppins',sans-serif;
+  border-radius:10px;
+  background-color:rgb(245, 245, 245);
+  border:none;
+}
+
+
+.million{
+  width:100%;
+  background: #FF5F6D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 125px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-weight:bolder;
+  font-size:larger;
+}
