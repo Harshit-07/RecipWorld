@@ -6,7 +6,6 @@ import Zoom from '@material-ui/core/Zoom';
 
 export default function RecipeTile({ recipe, setFav}) {
 
-
   let rounds = recipe["recipe"]["calories"];
   let r1= Math.trunc(rounds);
   
