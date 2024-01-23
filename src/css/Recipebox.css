@@ -1,69 +1,68 @@
-.Recipebox_img{
-    padding:10px;
-    height:200px;
-    width:280px;
-    object-fit:cover;
-    border-radius:4px;
-    cursor:pointer;
-    transition: transform .3s;
-    border-radius: 10px;
+.Recipebox_img {
+  /* padding: 10px; */
+  height: 200px;
+  width: 280px;
+  object-fit: cover;
+  /* border-radius: 4px; */
+  cursor: pointer;
+  transition: transform 0.3s;
+  border-radius: 10px;
 }
 
-.Recipebox_img:hover{
-    padding:10px;
-    height:200px;
-    width:280px;
-    object-fit:cover;
-    border-radius:4px;
-    cursor:pointer;
-    transform: scale(1.05);
-    border-radius:16px;
-}
-    
-.Recipebox_label{
-    max-width:200px;
-    text-align:center;
-    margin:-9px 45px;
-    padding-bottom:30px;
-    display: flex;
-    justify-content: center;
-    cursor:pointer;
+.Recipebox_img:hover {
+  padding: 10px;
+  height: 200px;
+  width: 280px;
+  object-fit: cover;
+  border-radius: 4px;
+  cursor: pointer;
+  transform: scale(1.05);
+  border-radius: 16px;
 }
 
-.Recipebox_content{
-    max-width:200px;
-    text-align:center;
-    margin:-12px 45px;
-    padding-bottom:30px;
-    display: flex;
-    justify-content: center;
+.Recipebox_label {
+  max-width: 200px;
+  text-align: center;
+  margin: -9px 45px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
 }
 
-p{
-    font-size:20px;
-    background:black;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent
+.Recipebox_content {
+  max-width: 200px;
+  text-align: center;
+  margin: -12px 45px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
 }
 
-.mui_fav{
-    color:rgb(68, 3, 3);
-    background-color:rgb(226,222,222);
-    border:rgb(226,222,222);
-    cursor: pointer;
-    padding-left: 250px;
+p {
+  font-size: 20px;
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.mui_fav:hover{
-    color:red;
-    background-color:rgb(226,222,222);
-    border:rgb(226,222,222);
-    cursor: pointer;
-    padding-left: 250px;
+.mui_fav {
+  color: rgb(68, 3, 3);
+  background-color: rgb(226, 222, 222);
+  border: rgb(226, 222, 222);
+  cursor: pointer;
+  padding-left: 250px;
 }
 
+.mui_fav:hover {
+  color: red;
+  background-color: rgb(226, 222, 222);
+  border: rgb(226, 222, 222);
+  cursor: pointer;
+  padding-left: 250px;
+}
 
-.kcal{
-    color:#9c421b;
-    padding:0 0 0 4px;
+.kcal {
+  color: #9c421b;
+  padding: 0 0 0 4px;
 }
