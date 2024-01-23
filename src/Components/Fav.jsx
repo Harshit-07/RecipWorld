@@ -8,7 +8,7 @@ function Fav() {
   return (
     <>
       <div className="fav">
-        <h2>Favorites (ﾉ◕ヮ◕)ﾉ*:･ ❤</h2>
+        <h2>Favorite (ﾉ◕ヮ◕)ﾉ*:･ ❤</h2>
       </div>
       <p>
         {labels.map((labels) => (
